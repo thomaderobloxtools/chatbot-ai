@@ -1,0 +1,14 @@
+{
+  "name": "bot-ai-discord",
+  "version": "1.0.0",
+  "description": "Bot AI tư vấn tự động",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
