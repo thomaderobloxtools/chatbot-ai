@@ -3,6 +3,14 @@ const { Client, GatewayIntentBits, SlashCommandBuilder, REST, Routes, Permission
 const axios = require('axios');
 const fs = require('fs');
 
+const http = require('http');
+
+// Tạo một server giả để "đánh lừa" Render là có website đang chạy
+http.createServer((req, res) => {
+  res.write("Bot is alive!");
+  res.end();
+}).listen(8080); 
+
 // --- CẤU HÌNH CƠ BẢN ---
 const MODEL_NAME = 'google/gemini-2.0-flash-exp:free'; // Dùng Gemini Flash trên OpenRouter vì tốc độ nhanh, hiểu tiếng Việt tốt
 const CONFIG_FILE = './config.json';
