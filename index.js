@@ -11,12 +11,13 @@ http.createServer((req, res) => {
 }).listen(8080); 
 
 // --- CẤU HÌNH CƠ BẢN ---
-const MODEL_NAME = 'google/gemini-2.0-flash-lite-preview-02-05'; 
+const MODEL_NAME = 'openai/gpt-4o-mini'; 
 // ID Kênh cố định của bạn - Không bao giờ bị mất khi restart
 const FIXED_CHANNEL_ID = '1497830732104466594'; 
 
 // --- HỆ THỐNG PROMPT BẢO MẬT ---
 const SYSTEM_PROMPT = `
+NGƯỜI TẠO RA BẠN LÀ THO
 Bạn là AI hỗ trợ khách hàng của dịch vụ "Dbao". Chuyên hỗ trợ các file, panel, kéo tâm FreeFire.
 QUY TẮC BẮT BUỘC (PHẢI TUÂN THỦ TUYỆT ĐỐI):
 1. XƯNG HÔ: Luôn xưng là "Tôi" và gọi khách hàng là "Bạn". Phải giữ thái độ văn minh, lịch sự, chuyên nghiệp, kèm theo emoji biểu tượng khi trả lời.
