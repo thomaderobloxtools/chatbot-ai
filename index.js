@@ -12,7 +12,7 @@ http.createServer((req, res) => {
 }).listen(8080); 
 
 // --- CẤU HÌNH CƠ BẢN ---
-const MODEL_NAME = 'google/gemini-2.0-flash-exp:free'; // Dùng Gemini Flash trên OpenRouter vì tốc độ nhanh, hiểu tiếng Việt tốt
+const MODEL_NAME = 'google/gemini-2.0-flash-lite-preview-02-05:free'; // Dùng Gemini Flash trên OpenRouter vì tốc độ nhanh, hiểu tiếng Việt tốt
 const CONFIG_FILE = './config.json';
 
 // --- HỆ THỐNG PROMPT BẢO MẬT (KNOWLEDGE BASE) ---
