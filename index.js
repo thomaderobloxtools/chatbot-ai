@@ -11,7 +11,7 @@ http.createServer((req, res) => {
 }).listen(8080); 
 
 // --- CẤU HÌNH CƠ BẢN ---
-const MODEL_NAME = 'google/gemini-2.0-flash-lite-preview-02-05:free'; 
+const MODEL_NAME = 'google/gemini-2.0-flash-001'; 
 // ID Kênh cố định của bạn - Không bao giờ bị mất khi restart
 const FIXED_CHANNEL_ID = '1497830732104466594'; 
 
