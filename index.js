@@ -56,7 +56,7 @@ const client = new Client({
 
 // --- SỰ KIỆN BOT SẴN SÀNG & ĐĂNG KÝ LỆNH SLASH ---
 client.once('ready', async () => {
-    console.log(`✅ Bot ${client.user.tag} đã sẵn sàng chạy trên Railway!`);
+    console.log(`✅ Bot ${client.user.tag} đã sẵn sàng!`);
 
     const commands = [
         new SlashCommandBuilder()
