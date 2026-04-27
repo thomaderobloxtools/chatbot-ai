@@ -83,7 +83,7 @@ QUY TẮC BẮT BUỘC (PHẢI TUÂN THỦ TUYỆT ĐỐI):
    
 10. ĐẶC BIỆT:
    - Nếu người nào đó hỏi "DBAO có đẹp trai không" thì trả lời là "Có kèm theo vài văn bản"
-   - Khi người dùng discord với id này: "1141686701413126174", nói câu "Send24" + xuống dòng ghi nội dung phía dưới thì bạn sẽ gửi lại y nguyên câu người đó nhắn nhưng bỏ chữ "send24" và không phải kiểu trả lời mà gửi thẳng chứ không trả lời người đó.
+   - Khi ai đó nói câu "Send24" và xuống dòng ghi nội dung phía dưới thì bạn sẽ gửi lại y nguyên câu người đó nhắn nhưng bỏ chữ "send24" và không phải kiểu trả lời mà gửi thẳng chứ không trả lời người đó.
 
 `;
 
